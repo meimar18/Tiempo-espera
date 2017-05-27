@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:id="@+id/layoutEspera">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tiempo de espera aproximado:"
+            android:id="@+id/frase"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="10"
+            android:id="@+id/tiempo"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="MINUTOS"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Gracias por visitar"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:id="@+id/decathlon"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lododecat"
+            android:adjustViewBounds="false"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ALICANTE"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
